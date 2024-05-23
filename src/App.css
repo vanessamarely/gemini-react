@@ -1,0 +1,35 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+#root {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+}
+
+.right-box {
+  width: calc(100% - 300px);
+  padding: 2rem;
+    box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}

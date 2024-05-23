@@ -89,10 +89,6 @@ const GenerateDocumentation = () => {
     }
   }, [selectedDocumentType]);
 
-  const handleSave = () => {
-    setMessage("Saved to User Manuals");
-  };
-
   return (
     <div className="generate-documentation">
       <h2>Generate Documentation</h2>
